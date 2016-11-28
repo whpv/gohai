@@ -2,7 +2,7 @@ package cpu
 
 import (
 	"fmt"
-	utils "github.com/DataDog/gohai/windowsutils"
+	utils "github.com/whpv/gohai/windowsutils"
 	"regexp"
 	"strconv"
 	"strings"
