@@ -12,12 +12,12 @@ import (
 	log "github.com/cihub/seelog"
 
 	// project
-	"github.com/DataDog/gohai/cpu"
-	"github.com/DataDog/gohai/filesystem"
-	"github.com/DataDog/gohai/memory"
-	"github.com/DataDog/gohai/network"
-	"github.com/DataDog/gohai/platform"
-	"github.com/DataDog/gohai/processes"
+	"github.com/whpv/gohai/cpu"
+	"github.com/whpv/gohai/filesystem"
+	"github.com/whpv/gohai/memory"
+	"github.com/whpv/gohai/network"
+	"github.com/whpv/gohai/platform"
+	"github.com/whpv/gohai/processes"
 )
 
 type Collector interface {
