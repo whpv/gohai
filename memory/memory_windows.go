@@ -1,7 +1,7 @@
 package memory
 
 import (
-	utils "github.com/DataDog/gohai/windowsutils"
+	utils "github.com/whpv/gohai/windowsutils"
 )
 
 func getMemoryInfo() (memoryInfo map[string]string, err error) {
