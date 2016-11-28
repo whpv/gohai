@@ -37,6 +37,7 @@ func main() {
 	ldflags := fmt.Sprintf("-X 'main.buildDate = %s' -X 'main.gitCommit = %s' -X 'main.gitBranch = %s' -X 'main.goVersion = %s'", date, commit, branch, go_version)
 
 	cmd := exec.Command(gobin, []string{"build", "-a", "-ldflags", ldflags}...)
+	fmt.Printf("%s",cmd)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	err := cmd.Run()
